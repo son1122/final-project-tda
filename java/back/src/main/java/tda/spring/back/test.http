@@ -1,0 +1,15 @@
+# curl --location 'http://localhost:8085/insurance/buy'
+#--header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzZWxmIiwiZXhwIjoxNjc3Mzk2NDI3LCJpYXQiOjE2NzczOTI4MjcsInNjb3BlIjoiUk9MRV9VU0VSIiwidXNlcm5hbWUiOiJhc2QifQ._2Beby3RJXEjNiEfNm24ZTST-YHcdFUxMmHnusHryGM'
+#--header 'Content-Type: application/x-www-form-urlencoded'
+#--data-urlencode 'id=123123'
+#--data-urlencode 'type=test11'
+#--data-urlencode 'auth=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzZWxmIiwiZXhwIjoxNjc3MzgwMTg4LCJpYXQiOjE2NzczNzY1ODgsInNjb3BlIjoiUk9MRV9VU0VSIiwidXNlcm5hbWUiOiJ6aUxDVSJ9.CUyqeu-uO7IXIvFwJrvQWMTBTFzwiWw_QvQPbxM1UnI'
+#--data-urlencode 'registerId=1'
+POST http://localhost:8085/insurance/buy
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzZWxmIiwiZXhwIjoxNjc3Mzk2NDI3LCJpYXQiOjE2NzczOTI4MjcsInNjb3BlIjoiUk9MRV9VU0VSIiwidXNlcm5hbWUiOiJhc2QifQ._2Beby3RJXEjNiEfNm24ZTST-YHcdFUxMmHnusHryGM
+Content-Type: application/x-www-form-urlencoded
+
+id=123123&type=test11&auth=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzZWxmIiwiZXhwIjoxNjc3MzgwMTg4LCJpYXQiOjE2NzczNzY1ODgsInNjb3BlIjoiUk9MRV9VU0VSIiwidXNlcm5hbWUiOiJ6aUxDVSJ9.CUyqeu-uO7IXIvFwJrvQWMTBTFzwiWw_QvQPbxM1UnI&registerId=1
+
+###
+

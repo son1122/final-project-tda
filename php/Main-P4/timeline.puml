@@ -1,0 +1,35 @@
+@startgantt
+
+<style>
+
+ganttDiagram {
+
+  task {
+    BackGroundColor GreenYellow
+    LineColor Green
+    unstarted {
+      BackGroundColor Fuchsia
+      LineColor FireBrick
+    }
+  }
+
+}
+
+</style>
+
+[Project Preiord] lasts 7 days
+[Stories Design] lasts 4 days
+[UI/UX] lasts 4 days
+[ER Diagram] lasts 4 days
+[Test prototype 30] lasts 4 days
+[Test prototype 40] lasts 4 days
+[Test prototype 50] lasts 4 days
+[Test prototype 60] lasts 4 days
+[Test prototype 70] lasts 4 days
+[Test prototype 80] lasts 4 days
+[Test prototype 90] lasts 4 days
+[Test prototype 100] lasts 4 days
+
+
+
+@endgantt

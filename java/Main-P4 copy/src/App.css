@@ -1,0 +1,35 @@
+.app {
+    text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*and (max-device-width:1024px)*/
+/*@media only screen and (orientation: portrait) {*/
+/*  .App {*/
+/*    text-align: center;*/
+/*    background-color: rgba(15,14,159,1);*/
+/*    display: grid;*/
+/*    grid-template-rows: 85vh 15vh;*/
+
+/*  }*/
+/*}*/
+/*@media only screen and (orientation: landscape) {*/
+/*  .App {*/
+/*    display: grid;*/
+/*    grid-template-columns: 90% auto;*/
+/*    text-align: center;*/
+/*    background-color: rgba(15,14,159,1);*/
+/*  }*/
+/*}*/
